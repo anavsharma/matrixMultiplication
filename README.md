@@ -1,23 +1,25 @@
 Compiling the code:
 ==============================
-*Cuda:
+* Cuda:
 >nvcc kernel.cu -o mm 
 
-*OpenMP:
+* OpenMP:
 >gcc matrixmult.c -fopenmp -o mattest
+
 Running the code:
 ------------------------------
-*Cuda:
+* Cuda:
 ./mm
 
-*OpenMP:
+* OpenMP:
 ./mattest
+
 This project was built using:
 ------------------------------
-*Windows 10
-*Visual C++ 2015.3 (v140)
-*CUDA 9
+* Windows 10
+* Visual C++ 2015.3 (v140)
+* CUDA 9
 
 Refrences:
 -----------------------------
-*Cuda C programming guide: https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#shared-memory
+* Cuda C programming guide: https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#shared-memory
