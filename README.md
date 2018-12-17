@@ -3,11 +3,15 @@ Compiling the code:
 *Cuda:
 >nvcc kernel.cu -o mm 
 
+*OpenMP:
+>gcc matrixmult.c -fopenmp -o mattest
 Running the code:
 ------------------------------
 *Cuda:
 ./mm
 
+*OpenMP:
+./mattest
 This project was built using:
 ------------------------------
 *Windows 10
